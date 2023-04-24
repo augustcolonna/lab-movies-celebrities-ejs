@@ -1,0 +1,7 @@
+<h2>All Movies!</h2>
+<% if (allMovies.length === 0) { %>
+<p>No Movies in the DB yet!</p>
+<% } else { %>
+<% allMovies.forEach(movie => { %>
+<p><%= movie.name %></p>
+<%})}%>

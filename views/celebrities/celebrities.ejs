@@ -1,0 +1,7 @@
+<h2>All Celebrities!</h2>
+<% if (allCelebrities.length === 0) { %>
+<p>No celebrities in the DB yet!</p>
+<% } else { %>
+<% allCelebrities.forEach(celeb => { %>
+<p><%= celeb.name %></p>
+<%})}%>
